@@ -32,7 +32,7 @@ function escreverLog($texto)
 
 function ftpDownload()
 {
-    $conexaoId = ftp_connect(FTP_SERVIDOR) or die("Não foi possível conectar-se a " . FTP_SERVIDOR);
+    $conexaoId = ftp_connect(FTP_SERVIDOR) or die(escreverLog("Não foi possível conectar-se a " . FTP_SERVIDOR . " na data " . date('d/m/Y) . "\n"));
 	
     if (@ftp_login($conexaoId, FTP_USUARIO, FTP_SENHA)) {	
 	
