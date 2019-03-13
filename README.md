@@ -1,6 +1,6 @@
 # Script para automatizar o backup full de uma hospedagem CPanel
 
-* Adicione uma pasta com o nome "Backups" na home do Cpanel
+* Adicione uma pasta com o nome "backups" na home do Cpanel
 
 * Faça upload do arquivo [backup.sh](https://github.com/tharlesamaro/cpanel-backups-automatizados/blob/master/backup.sh) para a home do Cpanel e altere as permissões do script para 750
 
